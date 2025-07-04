@@ -42,14 +42,23 @@ export default function Dashboard() {
                 Manage Your Tasks and Stay Productive
               </p>
             </div>
-            <button
-              onClick={() => setIsFormOpen(true)}
-              className="inline-flex items-center justify-center w-12 h-12 p-0 rounded-full bg-gradient-to-r from-blue-600 to-indigo-600 text-white text-sm font-medium shadow-lg transition-all duration-200 hover:from-blue-700 hover:to-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500
-    sm:w-auto sm:h-auto sm:px-4 sm:py-2 sm:rounded-lg"
-            >
-              <Plus className="h-5 w-5" />
-              <span className="hidden sm:inline ml-2">Add New Task</span>
-            </button>
+            {/* Desktop button */}
+<button
+  onClick={() => setIsFormOpen(true)}
+  className="hidden sm:inline-flex items-center justify-center w-auto h-auto px-4 py-2 rounded-lg bg-gradient-to-r from-blue-600 to-indigo-600 text-white text-sm font-medium shadow-lg transition-all duration-200 hover:from-blue-700 hover:to-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+>
+  <Plus className="h-5 w-5" />
+  <span className="ml-2">Add New Task</span>
+</button>
+
+{/* Mobile floating button */}
+<button
+  onClick={() => setIsFormOpen(true)}
+  className="fixed bottom-5 right-5 z-50 sm:hidden w-12 h-12 bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-full shadow-lg flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+>
+  <Plus className="h-6 w-6" />
+</button>
+
           </div>
         </div>
 
