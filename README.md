@@ -19,7 +19,11 @@ Each UI feature is encapsulated by well-structured reusable components because t
 🔎 Search Tasks by Title or Description
 📅 Due Date and Date of Creation
 ## 🛠️ Setup Instructions
-
+1. Clone the repository
+2. Run `npm install`
+3. Run `npm start`
+4. Open [http://localhost:5173](http://localhost:5173)
+5. add `import React from 'react';` in main.jsx (if empty screen is displayed).
 
 ## 🧰 Technologies Used
 ⚛️ React.js
