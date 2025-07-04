@@ -7,26 +7,26 @@ const TaskContext = createContext(undefined);
 const SAMPLE_TASKS = [
   {
     id: '1',
-    title: 'Complete React Project',
-    description: 'Finish the personal task tracker application with all required features',
+    title: 'Complete React assignment',
+    description: 'Build a task tracker application',
     priority: 'high',
     status: 'pending',
     dueDate: '2025-07-04',
     category: 'Work',
-    createdAt: '2025-07-03T10:00:00Z',
-    updatedAt: '2025-07-03T10:00:00Z',
+    createdAt: '2024-01-15T10:00:00Z',
+    updatedAt: '2024-01-15T10:00:00Z',
     userId: '1'
   },
   {
     id: '2',
-    title: 'Study Data Structures',
-    description: 'Review linked lists, trees, and graphs for upcoming interview',
+    title: 'Review JavaScript concepts',
+    description: 'Go through ES6+ features',
     priority: 'medium',
     status: 'in-progress',
-    dueDate: '2025-08-30',
+    dueDate: '2025-07-25',
     category: 'Study',
-    createdAt: '2025-07-03T10:00:00Z',
-    updatedAt: '2025-07-03T10:00:00Z',
+    createdAt: '2024-01-14T15:30:00Z',
+    updatedAt: '2024-01-14T15:30:00Z',
     userId: '1'
   },
   {
