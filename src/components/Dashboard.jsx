@@ -66,7 +66,7 @@ export default function Dashboard() {
       {/* Floating Add (+) Button */}
       <button
         onClick={() => setIsFormOpen(true)}
-        className="fixed bottom-6 left-1/2 transform -translate-x-1/2 z-50 w-16 h-16 sm:w-14 sm:h-14 rounded-full bg-gradient-to-r from-blue-600 to-indigo-600 text-white flex items-center justify-center shadow-lg hover:from-blue-700 hover:to-indigo-700 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all duration-200"
+        className="fixed bottom-6 right-6 z-50 w-16 h-16 sm:w-14 sm:h-14 rounded-full bg-gradient-to-r from-blue-600 to-indigo-600 text-white flex items-center justify-center shadow-lg hover:from-blue-700 hover:to-indigo-700 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all duration-200"
         aria-label="Add New Task"
       >
         <Plus className="h-7 w-7" />
