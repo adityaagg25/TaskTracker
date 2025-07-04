@@ -35,10 +35,10 @@ export default function Dashboard() {
         <div className="mb-8">
           <div className="flex flex-row items-center justify-between gap-4 flex-wrap">
             <div>
-              <h1 className="text-3xl font-bold text-gray-900 dark:text-white">
+              <h1 className="text-4xl sm:text-3xl font-bold text-gray-900 dark:text-white">
                 Welcome back, {user?.username}!
               </h1>
-              <p className="text-gray-600 mt-1 dark:text-gray-300">
+              <p className="text-lg sm:text-base text-gray-600 mt-1 dark:text-gray-300">
                 Manage Your Tasks and Stay Productive
               </p>
             </div>
