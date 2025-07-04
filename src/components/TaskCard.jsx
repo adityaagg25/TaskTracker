@@ -126,7 +126,7 @@ export default function TaskCard({ task, onEdit }) {
                 </span>
               </div>
 
-              <div className="flex items-center space-x-4 text-sm text-gray-500 dark:text-gray-400">
+              <div className="flex items-center gap-x-2 flex text-sm text-gray-500 dark:text-gray-400">
                 <div className={`flex items-center ${isOverdue ? 'text-red-600 dark:text-red-400' : ''}`}>
                   <Calendar className="h-4 w-4 mr-1" />
                   <span className="font-medium">
@@ -155,7 +155,7 @@ export default function TaskCard({ task, onEdit }) {
                 <div className="flex-1"></div>
                 <div className="flex items-center text-xs text-gray-500 dark:text-gray-400 justify-end">
                   <span className="mr-1">Created:</span>
-                  <Calendar className="h-3 w-3 mr-1" />
+                  {/* <Calendar className="h-3 w-3 mr-1" /> */}
                   <span>{createdAt.toLocaleDateString()}</span>
                 </div>
               </div>
