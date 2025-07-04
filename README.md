@@ -7,7 +7,7 @@ Each UI feature is encapsulated by well-structured reusable components because t
 
 ## 🚀 Features
 🔐 Simple Login
-🎨 Enhanced UI/UX
+🎨 Enhanced UI/UX with Smooth Animations/Transitions
 📱 Responsive Design for both mobile and desktop
 ✍️ Add, Edit, or Delete Tasks
 🔽 Task Filtering by status, priority, and category
@@ -18,6 +18,8 @@ Each UI feature is encapsulated by well-structured reusable components because t
 🏷 Tags/Categories: Personal, Work, etc.
 🔎 Search Tasks by Title or Description
 📅 Due Date and Date of Creation
+🔢 Task Count for each filter
+
 ## 🛠️ Setup Instructions
 1. Clone the repository
 2. Run `npm install`
